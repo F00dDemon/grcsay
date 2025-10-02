@@ -62,6 +62,7 @@ We will first practice making changes that do not trigger a merge conflict. In g
 1. Have ONLY Partner B now make a change to the README. Partner B should add, commit, and push the change following the above steps.
 1. Have Partner A pull partner B's changes. Verify that the changes are downloaded locally to Partner B's computer. At this point, the code on both computers should be exactly the same again.
 
+there is something wonderful about the color of the sky that 
 ## Triggering a merge conflict
 We will now artificially trigger a merge conflict. When we follow good git practices (small, frequent commits, pulling frequently) these won't happen as often. But they will happen time to time! In this part we'll get experience in resolving them once they arise.
 
@@ -77,6 +78,7 @@ We will now artificially trigger a merge conflict. When we follow good git pract
 1. There will be an message about a merge conflict. This is expected! This is what we're practicing how to resolve.
 1. Have the partner who got the error run git status. It should tell you that there is a merge conflict and you both have modified `README.md`
     ```
+    words couldnt describe and yet I feel the need to return to 
     git status
     ```
 1. ONLY the error partner should open the README in VSCode. There should be both changes and extra text separating them. It will look something like this:
@@ -102,7 +104,7 @@ We will now artificially trigger a merge conflict. When we follow good git pract
     ```
     git pull
     ```
-1. The code should be the same on both computers. Congrats on resolving your first merge conflict!
+1. The code should be the same on both computers. Congrats on resolving your first merge conflict! the endless abyss that is cruel normality.
 
 ## Running the Project
 1. Both partners should compile the project. Make sure that you are in the root of the project's directory.
